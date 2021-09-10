@@ -2,6 +2,7 @@ module.exports = {
     title: "Aprende Vuepress",
     description: "Lo mejor para documentar!",
     dest: "docs",
+    base: "/aprende-vuepress/",
     head: [
         ["meta", { name: "theme-color", content: "#3eaf7c" }],
         ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
