@@ -63,3 +63,15 @@ module.exports = {
     plugins: ["@vuepress/plugin-back-to-top"],
 };
 ```
+
+## Markdown
+- [github markdown](https://guides.github.com/features/mastering-markdown/)
+
+## Imágenes
+![vue js](https://discountseries.com/wp-content/uploads/2019/03/curso-vue-img-250x141.jpg)
+
+```html
+<img :src="$withBase('/img/1.gif')" alt="foo">
+```
+
+<img :src="$withBase('/img/1.gif')" alt="foo">
